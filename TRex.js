@@ -18,7 +18,7 @@ TRex.prototype.update = function(platform) {
 	var bottom = this.y + this.radius; // bottom pixel of circle
 	var nextBottom = bottom + this.yVelocity; // calculate next frame's bottom
 
-  if (bottom <= platform && nextBottom >= platform) { // next frame will be on platform
+  if (bottom <= platform && nextBottom >= platform) { // next frame will be on platform  //PrakharVarshney
 
 		this.yVelocity = 0; // reset velocity
 		this.y = platform - this.radius; // don't go past platform

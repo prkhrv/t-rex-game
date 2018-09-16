@@ -45,3 +45,7 @@ Obstacle.prototype.hits = function(dino) {
 
 	return (distance < minimumDistance); // return result
 };
+
+
+
+//made by PrakharVarshney
